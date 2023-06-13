@@ -1,0 +1,191 @@
+.profile,
+.profile > div,
+.profile > div > div > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile img {
+  margin-right: 5px;
+}
+
+.profile h3 {
+  font-weight: 700;
+  font-size: 14px;
+  color: #1d232b;
+}
+
+.profile > div > div img {
+  margin-left: 5px;
+}
+
+.profile p {
+  font-weight: 500;
+  font-size: 10px;
+  letter-spacing: -0.01em;
+  color: #919eb6;
+}
+
+.profile > div:last-child {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  background: #01b99f;
+  border-radius: 999px;
+  padding: 6px 12px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: -0.01em;
+  color: #1d232b;
+  margin: 15px 0;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #313b49;
+  margin: 15px 0;
+}
+
+.hashtags {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+}
+
+.hashtags p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  color: #5a6b87;
+  background: #f7f8fa;
+  border: 0.5px solid #ced3de;
+  border-radius: 999px;
+  padding: 5px 12px;
+  margin: 0 8px 8px 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interactions {
+  padding: 20px 20px 20px 5px;
+  border-bottom: 2px solid #f7f8fa;
+}
+
+.interactions,
+.interactions > div {
+  display: flex;
+  align-items: center;
+}
+
+.interactions img {
+  margin-left: 15px;
+}
+
+.interactions > div:last-child > img {
+  margin-left: 25px;
+}
+
+.interactions p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  color: #919eb6;
+  margin-left: 5px;
+}
+
+.comments {
+  margin: 15px;
+}
+
+.comments > div:nth-child(2) {
+  margin-left: 43px;
+}
+
+.comments > div > p,
+.reply > div > p {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #313b49;
+}
+
+.reaction {
+  margin: 5px 0 15px 0;
+}
+
+.reaction,
+.reaction > div {
+  display: flex;
+  align-items: center;
+}
+
+.reaction p {
+  font-weight: 400;
+  font-size: 9.34884px;
+  line-height: 100%;
+  color: #919eb6;
+  margin: 0 10px 0 5px;
+}
+
+.reply {
+  margin-left: 43px;
+}
+
+.reply > div:nth-child(2) {
+  margin-left: 43px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px 0 15px;
+  border-top: 1px solid #f7f8fa;
+}
+
+.input input {
+  width: 70%;
+  border: none;
+  outline: none;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #afb9ca;
+}
+
+.input button {
+  background: none;
+  border: none;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.01em;
+  color: #919eb6;
+}
